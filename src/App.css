@@ -1,0 +1,42 @@
+* {
+    font-family: 'Heebo', sans-serif;
+}
+
+.menus-section {
+    margin-top: 2rem;
+}
+
+.menus-section h2 {
+    text-align: center;
+}
+
+.underline {
+    width: 80px;
+    height: 5px;
+    margin: 0.200rem auto;
+    background-color: rgb(216, 139, 7);
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+
+.category-btn::first-letter{
+    text-transform:uppercase;
+}
+
+.menus-wrapper {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1160px;
+}
+
+@media(min-width: 768px) {
+    .menus-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
